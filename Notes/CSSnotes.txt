@@ -1,0 +1,18 @@
+Flex box
+display:flex
+flex directions: row, column, row-reverse, column-reverse
+justify-content(x axis pe kisi element ko move karwana ho)
+ justify-content:flex-start;,flex-end,center
+
+space around (start aur end se se 1 finger space aur elements k darmyaan 2 finger space)
+space between (start aur end se nhi dega elements k darmyaan se dega)
+space evenly (equal space de dega)
+
+align-items: flex-start;
+align-items: flex-end;
+
+
+align-self: 1 elemnt in a parent element
+
+Order, for positioning the items 
+flex wrap: 
