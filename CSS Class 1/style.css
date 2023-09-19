@@ -1,0 +1,68 @@
+h3,
+h4,
+h5,
+h6 {
+    background-color: aqua;
+    color: rgb(236, 15, 15);
+}
+
+.para1 {
+    background-color: chartreuse;
+    color: azure;
+}
+
+.para2 {
+    background-color: black;
+    color: white;
+}
+
+.para3 {
+    background-color: aliceblue;
+    color: blueviolet;
+}
+
+.para4 {
+    background-color: brown;
+    color: bisque;
+}
+
+.para5 {
+    background-color: red;
+    color: white;
+}
+
+.para6 {
+    background-color: darkblue;
+    color: white;
+}
+
+#container {
+    background-color: black;
+}
+
+/* child selector */
+/* Sirf li element k child element a ko target kare ga */
+li>a {
+    background-color: black;
+}
+
+/* Descendant selector */
+/* P element k andar k a element ko target kare jab k us k andar nested elements bhi hoon  */
+p a {
+    background-color: blue;
+    color: white;
+}
+
+/* adjacent sbling selector */
+/* element k baad k 1st p element ko target kre ga sirf baki p ko bhool jaye ga */
+h1+p {
+    background-color: yellow;
+    color: red;
+}
+
+/* General sibiling selector */
+/* element k baad k saare p elements ko target kare ga */
+h2~p {
+    background-color: darkcyan;
+    color: beige;
+}
