@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@1,200&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'REM', sans-serif;
+}
+
+*{
+    color: green;
+}
